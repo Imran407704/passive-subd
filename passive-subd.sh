@@ -8,7 +8,7 @@ mkdir -p output_passive_subdomains/$domain/target
 
 
 echo "🔁 Started crt.sh"
-curl -s https://crt.sh/\?q\=\%.inflectra.com\&output\=json | jq -r '.[].name_value' | sed 's/\*\.//g' | sort -u > output_passive_subdomains/$domain/target/crt.txt
+curl -s https://crt.sh/\?q\=\%.$domain\&output\=json | jq -r '.[].name_value' | sed 's/\*\.//g' | sort -u > output_passive_subdomains/$domain/target/crt.txt
 printf "✅ Done crt.sh\n\n"
 
 echo "🔁 Started Subfinder"
