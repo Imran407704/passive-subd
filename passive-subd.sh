@@ -15,7 +15,7 @@ subfinder -d $domain -silent > output_passive_subdomains/$domain/subdomains/subf
 printf "✅ Done Subfinder\n\n"
 
 echo "🔁 Started assetfinder"
-assetfinder --subs-only output_passive_subdomains/$domain | tee output_passive_subdomains/$domain/subdomains/assetfinder.txt
+assetfinder --subs-only $domain > output_passive_subdomains/$domain/subdomains/assetfinder.txt
 printf "✅ Done assetfinder\n\n"
 
 echo "🔁 Start bufferover.run"
