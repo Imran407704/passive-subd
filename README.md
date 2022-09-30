@@ -19,7 +19,7 @@ chmod +x passive-subd.sh
 ```
 All in one Command 
 ```
-git clone https://github.com/Imran407704/passive-subd.git; cd passive-subd; chmod +x passive-subd.sh
+git clone https://github.com/Imran407704/passive-subd; cd passive-subd; chmod +x passive-subd.sh
 ```
 ## Install this tools 1st
 
