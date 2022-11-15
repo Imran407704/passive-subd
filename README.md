@@ -37,6 +37,12 @@ go get -u github.com/tomnomnom/assetfinder
 go install -v github.com/OWASP/Amass/v3/...@master
 ```
 
+[Findomain](https://github.com/Findomain/Findomain)
+Linux Installation Docs
+```
+https://github.com/Findomain/Findomain/blob/master/docs/INSTALLATION.md#installation-in-linux-using-compiled-artifacts
+```
+
 [httpx](https://github.com/projectdiscovery/httpx)
 ```
 go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
