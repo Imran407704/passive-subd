@@ -19,7 +19,7 @@ curl -s "https://riddler.io/search/exportcsv?q=pld:$domain" | grep -Po "(([\w.-]
 printf "✅ Total riddler-subdomains     :  $(wc -l output_passive_subdomains/$domain/riddler.txt)\n\n"
 
 echo "🔁 Started Amass"                           ### add your config.ini location
-amass enum -passive -norecursive -noalts -config /home/$HOME/.config/amass/config/config.ini -d $domain > output_passive_subdomains/$domain/amass.txt
+amass enum -passive -norecursive -noalts -config $HOME/.config/amass/config/config.ini -d $domain > output_passive_subdomains/$domain/amass.txt
 printf "✅ Total amass-subdomains       :  $(wc -l output_passive_subdomains/$domain/amass.txt)\n\n"
 
 echo "🔁 Started WaybackMachine"
