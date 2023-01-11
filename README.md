@@ -26,11 +26,11 @@ git clone https://github.com/Imran407704/passive-subd; cd passive-subd; chmod +x
 [Subfinder](https://github.com/projectdiscovery/subfinder)
 
 ```bash
-  go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 ```
 [Assetfinder](https://github.com/tomnomnom/assetfinder)
 ```
-go get -u github.com/tomnomnom/assetfinder
+go install -v github.com/tomnomnom/assetfinder@latest
 ```
 [Amass](https://github.com/OWASP/Amass)
 ```
